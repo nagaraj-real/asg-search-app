@@ -1,0 +1,5 @@
+F:\WiproExam\testB\AsgQuizzes\bin\Debug\AsgQuizzes.dll
+F:\WiproExam\testB\AsgQuizzes\bin\Debug\AsgQuizzes.pdb
+F:\WiproExam\testB\AsgQuizzes\obj\Debug\AsgQuizzes.csprojResolveAssemblyReference.cache
+F:\WiproExam\testB\AsgQuizzes\obj\Debug\AsgQuizzes.dll
+F:\WiproExam\testB\AsgQuizzes\obj\Debug\AsgQuizzes.pdb

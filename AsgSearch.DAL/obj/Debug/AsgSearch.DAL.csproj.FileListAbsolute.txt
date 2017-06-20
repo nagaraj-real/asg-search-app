@@ -1,0 +1,10 @@
+F:\WiproExam\testB\AsgSearch.DAL\bin\Debug\AsgSearch.DAL.dll.config
+F:\WiproExam\testB\AsgSearch.DAL\bin\Debug\AsgSearch.DAL.dll
+F:\WiproExam\testB\AsgSearch.DAL\bin\Debug\AsgSearch.DAL.pdb
+F:\WiproExam\testB\AsgSearch.DAL\bin\Debug\EntityFramework.dll
+F:\WiproExam\testB\AsgSearch.DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\WiproExam\testB\AsgSearch.DAL\bin\Debug\EntityFramework.xml
+F:\WiproExam\testB\AsgSearch.DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\WiproExam\testB\AsgSearch.DAL\obj\Debug\AsgSearch.DAL.dll
+F:\WiproExam\testB\AsgSearch.DAL\obj\Debug\AsgSearch.DAL.pdb
+F:\WiproExam\testB\AsgSearch.DAL\obj\Debug\AsgSearch.DAL.csprojResolveAssemblyReference.cache

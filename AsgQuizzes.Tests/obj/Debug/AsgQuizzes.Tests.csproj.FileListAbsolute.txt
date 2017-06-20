@@ -1,0 +1,11 @@
+F:\WiproExam\testB\AsgQuizzes.Tests\bin\Debug\AsgQuizzes.Tests.dll
+F:\WiproExam\testB\AsgQuizzes.Tests\bin\Debug\AsgQuizzes.Tests.pdb
+F:\WiproExam\testB\AsgQuizzes.Tests\bin\Debug\AsgQuizzes.dll
+F:\WiproExam\testB\AsgQuizzes.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\WiproExam\testB\AsgQuizzes.Tests\bin\Debug\Moq.dll
+F:\WiproExam\testB\AsgQuizzes.Tests\bin\Debug\AsgQuizzes.pdb
+F:\WiproExam\testB\AsgQuizzes.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+F:\WiproExam\testB\AsgQuizzes.Tests\bin\Debug\Moq.xml
+F:\WiproExam\testB\AsgQuizzes.Tests\obj\Debug\AsgQuizzes.Tests.csprojResolveAssemblyReference.cache
+F:\WiproExam\testB\AsgQuizzes.Tests\obj\Debug\AsgQuizzes.Tests.dll
+F:\WiproExam\testB\AsgQuizzes.Tests\obj\Debug\AsgQuizzes.Tests.pdb
