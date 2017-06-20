@@ -1,0 +1,15 @@
+
+<h1>Step 2</h1>
+<p>We want to keep historic information on what queries are performed by our users. So, every search performed by our application must be saved in a SQL server database. The first result obtained (only the first) should also be saved into the database, including all information rendered in step 1.</p>
+<h3>Hints:</h3>
+<ul>
+    <li>
+        You'll have to modify the HomeController class and use QueryService.SaveQuery method. Maybe you have to modify few things.
+    </li>
+    <li>
+        By default, the database used is .\localhost\NTRsearchDB (maybe you have to uncomment something ;P). You can connect to it with the SQL Server Management Studio or the Database explorer in VS with SQL Server Authentication user:sa password:ntrglobal
+    </li>
+    <li>
+        Feel free to remove the existing database if tou run into problems while changing the schema since EF automatically re-creates it as needed. We don't care about migrations or database upgrades.
+    </li>
+</ul>

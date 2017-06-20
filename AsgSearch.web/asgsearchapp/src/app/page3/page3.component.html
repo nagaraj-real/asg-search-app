@@ -1,0 +1,19 @@
+<h1>Step 3</h1>
+<p>This page should show the last 5 queries submitted by the users and their corresponding first result. Show all data that is rendered in step 1.</p>
+<h3>Hints:</h3>
+<ul>
+    <li>
+        You will need to modify the HomeController and QueryService classes.
+    </li>
+</ul>
+
+<button (click)="onRefresh()">Refresh history</button>
+
+<p></p>
+<p></p>
+
+<div *ngFor="let query of queries">
+<hr/>
+<h3>Query : {{query.QueryText}}</h3>
+<app-result [questions]="query.Questions" [error]="error" [responselimit]="1"></app-result>
+</div>

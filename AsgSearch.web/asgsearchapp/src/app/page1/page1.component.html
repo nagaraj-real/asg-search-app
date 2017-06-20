@@ -1,0 +1,35 @@
+<h1>Step 1</h1>
+
+When a user enters some text in the textbox below and clicks 'Search', the application should show the first 40 Stackoverflow
+questions, with accepted answers, containing search terms terms in the title, body or tags. Along with the link, you must
+show:
+<ul>
+  <li>question title</li>
+  <li>time</li>
+  <li>number of responses</li>
+  <li>author name</li>
+  <li>tags</li>
+  <li>avatar image</li>
+  <li>accepted answer text, author and avatar</li>
+  <li>link to accepted response in stackoverflow site</li>
+</ul>
+
+<p><strong>We prefer ajax calls</strong>, but in the end it's up to you if you use an ajax call or a full page refresh. It's
+  also up to you if you implement it client or server-side. In any case, you have to modify the HomeController and StackExchangeSearch
+  classes. Needless to say, you can add files if necessary.</p>
+<h3>Hints:</h3>
+<ul>
+  <li>
+    You'll have to use the Stack exchange API. Check <a href="https://api.stackexchange.com/docs">https://api.stackexchange.com/docs</a>
+  </li>
+  <li>
+    Depending on how you implement this, maybe you'll need to use this: <a href="http://msdn.microsoft.com/en-us/library/bb355316.aspx">http://msdn.microsoft.com/en-us/library/bb355316.aspx</a>
+  </li>
+  <li>
+    Check this online tool to generate suitable classes from JSON payload: <a href="http://json2csharp.com/">http://json2csharp.com/</a>
+  </li>
+</ul>
+
+<input #query type="text" />
+<button (click)="onSearch(query.value)">Search!</button>
+<app-result [questions]="Queries.Questions" [error]="error"></app-result>

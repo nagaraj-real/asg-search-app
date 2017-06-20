@@ -1,0 +1,50 @@
+<div id="results" >
+  <ng-template [ngIf]="!error && questions && questions.length>0">
+  <div class="panel panel-default" *ngFor="let question of questions.slice(0,responselimit);let i = index">
+      <div class="panel-body">
+      <ul>
+        <li>
+           <h3 *ngIf="!responselimit" [innerHTML]="'Question '+ (i+1) + ' - '+ question.QuestionTitle"></h3>
+           <h3 *ngIf="responselimit" [innerHTML]="'Question '+ ' - '+ question.QuestionTitle"></h3>
+        </li>
+        <hr/> 
+        <li  class="img-avatar pull-left">
+          <div [style.backgroundImage]="'url('+ question.QuestionOwnerImage +')'"></div>
+          <span [innerHTML]="question.QuestionOwnerName"></span>
+        </li>
+        <li class="pull-right">
+           <span class="tag" *ngFor="let tag of question.tags">{{tag}}</span>
+        </li>
+        <br/><br/><br/><br/> 
+        <li>
+          <span class="pull-left"> {{question.QuestionDate*1000|date}} </span> 
+          <span class="pull-right">Answer Count : <b>{{question.AnswerCount}}</b></span>
+        </li>
+      </ul>
+      <br/><br/>
+      <h3 class="answertitle">Answers</h3>   
+      <ul *ngFor="let answer of question.Answers">
+        <hr/>   
+        <li  class="img-avatar pull-left">
+          <div [style.backgroundImage]="'url('+ answer.AnswerOwnerImage +')'"></div>
+          <span [innerHTML]="answer.AnswerOwnerName"></span>
+        </li>
+        <br/><br/><br><br/><br/>
+         <li class='answerbody'>
+           <span [innerHTML]="answer.AnswerBody"></span>
+           <img/>
+        </li>
+      </ul>
+
+      <ul><li>view more at <a [href]="question.link" target="_blank">{{question.QuestionLink}}</a></li></ul>
+    </div>
+
+  </div>
+  </ng-template>
+  <ng-template [ngIf]="!error && questions && questions.length===0">
+    <div class="text-center"><span class="error">No results found</span></div>
+  </ng-template>
+  <ng-template [ngIf]="error">
+    <div class="text-center"><span class="span-error">Some Error Occured</span></div>
+  </ng-template>
+</div>
