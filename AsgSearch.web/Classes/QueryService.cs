@@ -17,7 +17,8 @@ namespace AsgSearch.web.Classes
 
         public List<Query> GetQueries()
         {
-            return context.Queries.All().OrderByDescending(p=>p.Time).Take(5).ToList();
+            int count;
+            return context.Queries.Filter(null, out count, 0, 5).OrderByDescending(p => p.Time).ToList();
         }
 
         // HINT: For step 2 you'll need to add a new parameter so you can set a value for the
